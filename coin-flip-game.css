@@ -1,0 +1,100 @@
+body {
+	font-family: Arial;
+	background-color: rgb(37, 37, 37);
+	color: white;
+}
+
+div,
+p {
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-top: 10px;
+	color: white;
+}
+
+.move-emoji {
+	height: 70px;
+	width: 70px;
+	margin-right: 10px;
+	border-radius: 80px;
+}
+
+.heads-move-emoji,
+.tails-move-button {
+	height: 113px;
+	width: 113px;
+	margin-left: -5px;
+	margin-top: 0;
+	border-radius: 80px;
+}
+
+.heads-emoji-button,
+.tails-emoji-button {
+	height: 120px;
+	width: 120px;
+	border-radius: 200px;
+}
+
+.heads-button,
+.tails-button {
+	cursor: pointer;
+	width: 120px;
+	height: 120px;
+	border-radius: 100px;
+	border: 3px solid white;
+	background-color: rgb(36, 36, 36);
+	color: white;
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.result-space {
+	color: white;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-size: 17px;
+}
+
+.result {
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.message {
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.game-score {
+	margin-top: 60px;
+	margin-bottom: 16px;
+	font-size: 17px;
+
+}
+
+.reset-score-button,
+.auto-play-button {
+	background-color: white;
+	color: black;
+	padding: 8px 15px;
+	font-size: 15px;
+	cursor: pointer;
+	border: none;
+}
+
+.yes-button,
+.no-button {
+	background-color: white;
+	color: black;
+	padding: 8px 15px;
+	font-size: 15px;
+	cursor: pointer;
+	border: none;
+	margin-left: 10px;
+}
